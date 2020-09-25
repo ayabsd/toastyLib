@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="main"
+            type="com.publicis.toastLib.MainActivity"/>
+    </data>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="showToastDefault"
+            android:text="@string/default_text"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btnSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="showToastSuccess"
+            android:text="@string/success_text"
+            android:focusable="true" />
+
+
+
+        <Button
+            android:id="@+id/btnWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="showToastWarning"
+            android:text="@string/warning_text"
+            android:focusable="true" />
+        <Button
+            android:id="@+id/btniNFO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="showToastInfo"
+            android:text="@string/info_text"
+            android:focusable="true" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</layout>

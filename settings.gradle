@@ -1,0 +1,3 @@
+include ':toastylibrary'
+include ':app'
+rootProject.name = "Toasty"

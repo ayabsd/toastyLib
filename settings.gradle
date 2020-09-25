@@ -1,3 +1,4 @@
 include ':toastylibrary'
 include ':app'
 rootProject.name = "Toasty"
+include ':toastylibrary'
